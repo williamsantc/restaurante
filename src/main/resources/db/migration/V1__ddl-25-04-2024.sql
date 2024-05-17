@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS `itp-soft-2`;
+
+CREATE TABLE `itp-soft-2`.usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(90) NOT NULL,
+    correo VARCHAR(90) NOT NULL
+);
